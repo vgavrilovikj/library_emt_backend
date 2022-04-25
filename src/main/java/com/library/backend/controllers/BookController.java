@@ -12,7 +12,7 @@ import javax.validation.Valid;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = {"http://localhost:3000", "https://library-be.herokuapp.com/"})
 @RequestMapping("/books")
 public class BookController {
     private final BookService bookService;
