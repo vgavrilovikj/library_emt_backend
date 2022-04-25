@@ -6,7 +6,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@CrossOrigin(origins = {"http://localhost:3000", "https://library-be.herokuapp.com/"})
+@CrossOrigin(origins = {"http://localhost:3000", "https://library-fee.herokuapp.com"})
 @RequestMapping("/register")
 public class RegisterController {
     private final UserService userService;
